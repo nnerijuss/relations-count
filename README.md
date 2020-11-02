@@ -1,12 +1,15 @@
+### Seed data
 `php artisan migrate --seed`
 
-Data in tables:
+### Data in tables:
+
 [<img src="https://i.ibb.co/dcJHSQ4/products.png">](https://i.ibb.co/dcJHSQ4/products.png)
 [<img src="https://i.ibb.co/nfQ4k0F/comments.png">](https://i.ibb.co/nfQ4k0F/comments.png)
 
+### Test
 `php artisan test-count`
 
-Result
+### Result
 ```php
 Illuminate\Database\Eloquent\Collection^ {#1664
   #items: array:4 [
